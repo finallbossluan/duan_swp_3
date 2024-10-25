@@ -1,0 +1,35 @@
+/* Sidebar.css */
+.sidebar {
+  position: fixed; /* Giữ sidebar cố định trên màn hình */
+  top: 0;
+  left: 0;
+  width:60px;
+  height: 16vh;
+  background-color: rgb(15, 198, 248);
+  box-shadow: 2px 0 5px rgba(12, 79, 203, 0.889);
+  z-index: 9999; /* Đảm bảo nó luôn trên cùng */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-btn {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

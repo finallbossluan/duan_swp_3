@@ -1,0 +1,74 @@
+/*AddReview component */
+.add-review {
+    margin: 70px 0px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #EDE7F6;
+  }
+  
+  .add-review h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+
+  }
+  
+  .add-review form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-review select,
+  .add-review textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 70px; 
+    width: 100%; 
+    resize: horizontal; 
+  }
+  
+  .add-review button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9333EA;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-review button:hover {
+    background-color: #a29bfe ;
+  }
+  
+  /*ReviewList component */
+  .review-list {
+    margin: 50px 0px;
+  }
+  
+  .review-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .review-rating {
+    font-weight: bold;
+  }
+  
+.stars {
+    display: flex;
+
+}
+
+.star {
+    font-size: 25px; 
+    color: #BDBDBD; 
+    cursor: pointer; 
+   
+}
+
+.star.selected {
+    color: gold; /* Màu sắc khi chọn */
+}
